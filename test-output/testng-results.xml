@@ -23,31 +23,31 @@
       <![CDATA[======# Browser Test End # ======]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-01-04T04:16:08 IST" name="Suite" finished-at="2021-01-04T04:17:42 IST" duration-ms="93280">
+  <suite started-at="2021-01-04T04:29:16 IST" name="Suite" finished-at="2021-01-04T04:29:49 IST" duration-ms="32847">
     <groups>
     </groups>
-    <test started-at="2021-01-04T04:16:08 IST" name="Test" finished-at="2021-01-04T04:17:42 IST" duration-ms="93280">
+    <test started-at="2021-01-04T04:29:16 IST" name="Test" finished-at="2021-01-04T04:29:49 IST" duration-ms="32847">
       <class name="tests.login_test">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.login_test@13e39c73]" started-at="2021-01-04T04:16:52 IST" name="setup" finished-at="2021-01-04T04:16:58 IST" duration-ms="5735" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.login_test@57c758ac]" started-at="2021-01-04T04:29:16 IST" name="setup" finished-at="2021-01-04T04:29:24 IST" duration-ms="7502" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4b916cc2]]>
+                <![CDATA[org.testng.TestRunner@385c9627]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getResponseTime()[pri:0, instance:tests.login_test@13e39c73]" started-at="2021-01-04T04:16:58 IST" name="getResponseTime" finished-at="2021-01-04T04:16:58 IST" duration-ms="477" status="PASS">
+        <test-method signature="getResponseTime()[pri:0, instance:tests.login_test@57c758ac]" started-at="2021-01-04T04:29:24 IST" name="getResponseTime" finished-at="2021-01-04T04:29:25 IST" duration-ms="1786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResponseTime -->
-        <test-method signature="getStatusCode()[pri:0, instance:tests.login_test@13e39c73]" started-at="2021-01-04T04:16:58 IST" name="getStatusCode" finished-at="2021-01-04T04:16:59 IST" duration-ms="438" status="PASS">
+        <test-method signature="getStatusCode()[pri:0, instance:tests.login_test@57c758ac]" started-at="2021-01-04T04:29:25 IST" name="getStatusCode" finished-at="2021-01-04T04:29:26 IST" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStatusCode -->
-        <test-method signature="t01_loginFailedFromTable(java.lang.String, java.lang.String)[pri:0, instance:tests.login_test@13e39c73]" started-at="2021-01-04T04:16:59 IST" name="t01_loginFailedFromTable" description="use from table information" data-provider="getData" finished-at="2021-01-04T04:17:00 IST" duration-ms="1286" status="PASS">
+        <test-method signature="t01_loginFailedFromTable(java.lang.String, java.lang.String)[pri:0, instance:tests.login_test@57c758ac]" started-at="2021-01-04T04:29:26 IST" name="t01_loginFailedFromTable" description="use from table information" data-provider="getData" finished-at="2021-01-04T04:29:27 IST" duration-ms="1540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t01_loginFailedFromTable -->
-        <test-method signature="t01_loginFailedFromTable(java.lang.String, java.lang.String)[pri:0, instance:tests.login_test@13e39c73]" started-at="2021-01-04T04:17:00 IST" name="t01_loginFailedFromTable" description="use from table information" data-provider="getData" finished-at="2021-01-04T04:17:01 IST" duration-ms="1218" status="PASS">
+        <test-method signature="t01_loginFailedFromTable(java.lang.String, java.lang.String)[pri:0, instance:tests.login_test@57c758ac]" started-at="2021-01-04T04:29:27 IST" name="t01_loginFailedFromTable" description="use from table information" data-provider="getData" finished-at="2021-01-04T04:29:29 IST" duration-ms="1273" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t01_loginFailedFromTable -->
-        <test-method signature="t01_loginFailedFromTable(java.lang.String, java.lang.String)[pri:0, instance:tests.login_test@13e39c73]" started-at="2021-01-04T04:17:01 IST" name="t01_loginFailedFromTable" description="use from table information" data-provider="getData" finished-at="2021-01-04T04:17:03 IST" duration-ms="1219" status="PASS">
+        <test-method signature="t01_loginFailedFromTable(java.lang.String, java.lang.String)[pri:0, instance:tests.login_test@57c758ac]" started-at="2021-01-04T04:29:29 IST" name="t01_loginFailedFromTable" description="use from table information" data-provider="getData" finished-at="2021-01-04T04:29:30 IST" duration-ms="1236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t01_loginFailedFromTable -->
-        <test-method signature="t01_loginFailedFromTable(java.lang.String, java.lang.String)[pri:0, instance:tests.login_test@13e39c73]" started-at="2021-01-04T04:17:03 IST" name="t01_loginFailedFromTable" description="use from table information" data-provider="getData" finished-at="2021-01-04T04:17:04 IST" duration-ms="1219" status="PASS">
+        <test-method signature="t01_loginFailedFromTable(java.lang.String, java.lang.String)[pri:0, instance:tests.login_test@57c758ac]" started-at="2021-01-04T04:29:30 IST" name="t01_loginFailedFromTable" description="use from table information" data-provider="getData" finished-at="2021-01-04T04:29:31 IST" duration-ms="1225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,11 +111,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t01_loginFailedFromTable -->
-        <test-method signature="t02_loginFailedMatchAssert()[pri:0, instance:tests.login_test@13e39c73]" started-at="2021-01-04T04:17:04 IST" name="t02_loginFailedMatchAssert" description="Login with wrong password and match assert" finished-at="2021-01-04T04:17:05 IST" duration-ms="1206" status="PASS">
+        <test-method signature="t02_loginFailedMatchAssert()[pri:0, instance:tests.login_test@57c758ac]" started-at="2021-01-04T04:29:31 IST" name="t02_loginFailedMatchAssert" description="Login with wrong password and match assert" finished-at="2021-01-04T04:29:32 IST" duration-ms="1257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t02_loginFailedMatchAssert -->
-        <test-method signature="t03_loginFailedNoMatchAssert()[pri:0, instance:tests.login_test@13e39c73]" started-at="2021-01-04T04:17:05 IST" name="t03_loginFailedNoMatchAssert" description="Login with wrong password with unmatch assert" finished-at="2021-01-04T04:17:06 IST" duration-ms="1204" status="FAIL">
+        <test-method signature="t03_loginFailedNoMatchAssert()[pri:0, instance:tests.login_test@57c758ac]" started-at="2021-01-04T04:29:32 IST" name="t03_loginFailedNoMatchAssert" description="Login with wrong password with unmatch assert" finished-at="2021-01-04T04:29:34 IST" duration-ms="1234" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Sorry! Epic sadface: Username and password do not match any user in this service] but found [Epic sadface: Username and password do not match any user in this service]]]>
@@ -140,33 +140,20 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t03_loginFailedNoMatchAssert -->
-        <test-method signature="t04_loginSucceed()[pri:0, instance:tests.login_test@13e39c73]" started-at="2021-01-04T04:17:06 IST" name="t04_loginSucceed" description="Login with right username and password" finished-at="2021-01-04T04:17:09 IST" duration-ms="3159" status="PASS">
+        <test-method signature="t04_loginSucceed()[pri:0, instance:tests.login_test@57c758ac]" started-at="2021-01-04T04:29:34 IST" name="t04_loginSucceed" description="Login with right username and password" finished-at="2021-01-04T04:29:48 IST" duration-ms="14607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t04_loginSucceed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.login_test@13e39c73]" started-at="2021-01-04T04:17:09 IST" name="tearDown" finished-at="2021-01-04T04:17:10 IST" duration-ms="640" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.login_test@57c758ac]" started-at="2021-01-04T04:29:48 IST" name="tearDown" finished-at="2021-01-04T04:29:49 IST" duration-ms="660" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[======# Browser Test End # ======]]>
@@ -175,26 +162,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- tearDown -->
       </class> <!-- tests.login_test -->
       <class name="tests.base_test">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.base_test@64cd705f]" started-at="2021-01-04T04:17:10 IST" name="setup" finished-at="2021-01-04T04:17:16 IST" duration-ms="5749" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.base_test@67a20f67]" started-at="2021-01-04T04:29:16 IST" name="setup" finished-at="2021-01-04T04:29:23 IST" duration-ms="7232" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4b916cc2]]>
+                <![CDATA[org.testng.TestRunner@385c9627]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getResponseTime()[pri:0, instance:tests.base_test@64cd705f]" started-at="2021-01-04T04:17:16 IST" name="getResponseTime" finished-at="2021-01-04T04:17:16 IST" duration-ms="488" status="PASS">
+        <test-method signature="getResponseTime()[pri:0, instance:tests.base_test@67a20f67]" started-at="2021-01-04T04:29:23 IST" name="getResponseTime" finished-at="2021-01-04T04:29:25 IST" duration-ms="2045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResponseTime -->
-        <test-method signature="getStatusCode()[pri:0, instance:tests.base_test@64cd705f]" started-at="2021-01-04T04:17:16 IST" name="getStatusCode" finished-at="2021-01-04T04:17:17 IST" duration-ms="421" status="PASS">
+        <test-method signature="getStatusCode()[pri:0, instance:tests.base_test@67a20f67]" started-at="2021-01-04T04:29:25 IST" name="getStatusCode" finished-at="2021-01-04T04:29:26 IST" duration-ms="517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStatusCode -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.base_test@64cd705f]" started-at="2021-01-04T04:17:17 IST" name="tearDown" finished-at="2021-01-04T04:17:18 IST" duration-ms="977" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.base_test@67a20f67]" started-at="2021-01-04T04:29:26 IST" name="tearDown" finished-at="2021-01-04T04:29:27 IST" duration-ms="742" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[======# Browser Test End # ======]]>
@@ -203,46 +190,46 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- tearDown -->
       </class> <!-- tests.base_test -->
       <class name="tests.checkout_step_one_test">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.checkout_step_one_test@57c758ac]" started-at="2021-01-04T04:16:23 IST" name="setup" finished-at="2021-01-04T04:16:29 IST" duration-ms="5911" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.checkout_step_one_test@64cd705f]" started-at="2021-01-04T04:29:16 IST" name="setup" finished-at="2021-01-04T04:29:24 IST" duration-ms="7503" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4b916cc2]]>
+                <![CDATA[org.testng.TestRunner@385c9627]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getResponseTime()[pri:0, instance:tests.checkout_step_one_test@57c758ac]" started-at="2021-01-04T04:16:29 IST" name="getResponseTime" finished-at="2021-01-04T04:16:30 IST" duration-ms="487" status="PASS">
+        <test-method signature="getResponseTime()[pri:0, instance:tests.checkout_step_one_test@64cd705f]" started-at="2021-01-04T04:29:24 IST" name="getResponseTime" finished-at="2021-01-04T04:29:25 IST" duration-ms="1785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResponseTime -->
-        <test-method signature="getStatusCode()[pri:0, instance:tests.checkout_step_one_test@57c758ac]" started-at="2021-01-04T04:16:30 IST" name="getStatusCode" finished-at="2021-01-04T04:16:30 IST" duration-ms="416" status="PASS">
+        <test-method signature="getStatusCode()[pri:0, instance:tests.checkout_step_one_test@64cd705f]" started-at="2021-01-04T04:29:25 IST" name="getStatusCode" finished-at="2021-01-04T04:29:26 IST" duration-ms="522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStatusCode -->
-        <test-method signature="t01_loginSucceed()[pri:0, instance:tests.checkout_step_one_test@57c758ac]" started-at="2021-01-04T04:16:30 IST" name="t01_loginSucceed" finished-at="2021-01-04T04:16:34 IST" duration-ms="4047" status="PASS">
+        <test-method signature="t01_loginSucceed()[pri:0, instance:tests.checkout_step_one_test@64cd705f]" started-at="2021-01-04T04:29:26 IST" name="t01_loginSucceed" finished-at="2021-01-04T04:29:38 IST" duration-ms="12087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t01_loginSucceed -->
-        <test-method signature="t02_addListItems()[pri:0, instance:tests.checkout_step_one_test@57c758ac]" started-at="2021-01-04T04:16:34 IST" name="t02_addListItems" finished-at="2021-01-04T04:16:35 IST" duration-ms="469" status="PASS">
+        <test-method signature="t02_addListItems()[pri:0, instance:tests.checkout_step_one_test@64cd705f]" started-at="2021-01-04T04:29:38 IST" name="t02_addListItems" finished-at="2021-01-04T04:29:39 IST" duration-ms="1222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t02_addListItems -->
-        <test-method signature="t03_clickCheckOut()[pri:0, instance:tests.checkout_step_one_test@57c758ac]" started-at="2021-01-04T04:16:35 IST" name="t03_clickCheckOut" finished-at="2021-01-04T04:16:35 IST" duration-ms="164" status="PASS">
+        <test-method signature="t03_clickCheckOut()[pri:0, instance:tests.checkout_step_one_test@64cd705f]" started-at="2021-01-04T04:29:39 IST" name="t03_clickCheckOut" finished-at="2021-01-04T04:29:41 IST" duration-ms="1579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t03_clickCheckOut -->
-        <test-method signature="t04_personalWrongFirstName()[pri:0, instance:tests.checkout_step_one_test@57c758ac]" started-at="2021-01-04T04:16:35 IST" name="t04_personalWrongFirstName" finished-at="2021-01-04T04:16:37 IST" duration-ms="2340" status="PASS">
+        <test-method signature="t04_personalWrongFirstName()[pri:0, instance:tests.checkout_step_one_test@64cd705f]" started-at="2021-01-04T04:29:41 IST" name="t04_personalWrongFirstName" finished-at="2021-01-04T04:29:43 IST" duration-ms="2385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t04_personalWrongFirstName -->
-        <test-method signature="t05_personalCorrectDetails()[pri:0, instance:tests.checkout_step_one_test@57c758ac]" started-at="2021-01-04T04:16:37 IST" name="t05_personalCorrectDetails" finished-at="2021-01-04T04:16:38 IST" duration-ms="489" status="PASS">
+        <test-method signature="t05_personalCorrectDetails()[pri:0, instance:tests.checkout_step_one_test@64cd705f]" started-at="2021-01-04T04:29:43 IST" name="t05_personalCorrectDetails" finished-at="2021-01-04T04:29:45 IST" duration-ms="1389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t05_personalCorrectDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkout_step_one_test@57c758ac]" started-at="2021-01-04T04:16:38 IST" name="tearDown" finished-at="2021-01-04T04:16:38 IST" duration-ms="637" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkout_step_one_test@64cd705f]" started-at="2021-01-04T04:29:45 IST" name="tearDown" finished-at="2021-01-04T04:29:45 IST" duration-ms="675" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[======# Browser Test End # ======]]>
@@ -251,62 +238,62 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- tearDown -->
       </class> <!-- tests.checkout_step_one_test -->
       <class name="tests.checkout_step_two_test">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:30 IST" name="setup" finished-at="2021-01-04T04:17:36 IST" duration-ms="5864" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:16 IST" name="setup" finished-at="2021-01-04T04:29:24 IST" duration-ms="7681" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4b916cc2]]>
+                <![CDATA[org.testng.TestRunner@385c9627]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getResponseTime()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:36 IST" name="getResponseTime" finished-at="2021-01-04T04:17:36 IST" duration-ms="412" status="PASS">
+        <test-method signature="getResponseTime()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:24 IST" name="getResponseTime" finished-at="2021-01-04T04:29:25 IST" duration-ms="1606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResponseTime -->
-        <test-method signature="getStatusCode()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:36 IST" name="getStatusCode" finished-at="2021-01-04T04:17:36 IST" duration-ms="459" status="PASS">
+        <test-method signature="getStatusCode()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:25 IST" name="getStatusCode" finished-at="2021-01-04T04:29:26 IST" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStatusCode -->
-        <test-method signature="t01_loginSucceed()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:36 IST" name="t01_loginSucceed" finished-at="2021-01-04T04:17:39 IST" duration-ms="3024" status="PASS">
+        <test-method signature="t01_loginSucceed()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:26 IST" name="t01_loginSucceed" finished-at="2021-01-04T04:29:43 IST" duration-ms="17162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t01_loginSucceed -->
-        <test-method signature="t02_addListItems()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:39 IST" name="t02_addListItems" finished-at="2021-01-04T04:17:40 IST" duration-ms="462" status="PASS">
+        <test-method signature="t02_addListItems()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:43 IST" name="t02_addListItems" finished-at="2021-01-04T04:29:45 IST" duration-ms="1484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t02_addListItems -->
-        <test-method signature="t03_clickCheckOut()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:40 IST" name="t03_clickCheckOut" finished-at="2021-01-04T04:17:40 IST" duration-ms="181" status="PASS">
+        <test-method signature="t03_clickCheckOut()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:45 IST" name="t03_clickCheckOut" finished-at="2021-01-04T04:29:45 IST" duration-ms="478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t03_clickCheckOut -->
-        <test-method signature="t04_personalCorrectDetails()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:40 IST" name="t04_personalCorrectDetails" finished-at="2021-01-04T04:17:41 IST" duration-ms="434" status="PASS">
+        <test-method signature="t04_personalCorrectDetails()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:45 IST" name="t04_personalCorrectDetails" finished-at="2021-01-04T04:29:46 IST" duration-ms="798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t04_personalCorrectDetails -->
-        <test-method signature="t05_printSauceCard()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:41 IST" name="t05_printSauceCard" finished-at="2021-01-04T04:17:41 IST" duration-ms="33" status="PASS">
+        <test-method signature="t05_printSauceCard()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:46 IST" name="t05_printSauceCard" finished-at="2021-01-04T04:29:46 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t05_printSauceCard -->
-        <test-method signature="t06_printItemTotal()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:41 IST" name="t06_printItemTotal" finished-at="2021-01-04T04:17:41 IST" duration-ms="31" status="PASS">
+        <test-method signature="t06_printItemTotal()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:46 IST" name="t06_printItemTotal" finished-at="2021-01-04T04:29:46 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t06_printItemTotal -->
-        <test-method signature="t07_printTax()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:41 IST" name="t07_printTax" finished-at="2021-01-04T04:17:41 IST" duration-ms="32" status="PASS">
+        <test-method signature="t07_printTax()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:46 IST" name="t07_printTax" finished-at="2021-01-04T04:29:46 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t07_printTax -->
-        <test-method signature="t08_printTotal()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:41 IST" name="t08_printTotal" finished-at="2021-01-04T04:17:41 IST" duration-ms="31" status="PASS">
+        <test-method signature="t08_printTotal()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:46 IST" name="t08_printTotal" finished-at="2021-01-04T04:29:46 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t08_printTotal -->
-        <test-method signature="t09_finish()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:41 IST" name="t09_finish" finished-at="2021-01-04T04:17:41 IST" duration-ms="264" status="PASS">
+        <test-method signature="t09_finish()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:46 IST" name="t09_finish" finished-at="2021-01-04T04:29:47 IST" duration-ms="830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t09_finish -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkout_step_two_test@654f0d9c]" started-at="2021-01-04T04:17:41 IST" name="tearDown" finished-at="2021-01-04T04:17:42 IST" duration-ms="631" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkout_step_two_test@9225652]" started-at="2021-01-04T04:29:47 IST" name="tearDown" finished-at="2021-01-04T04:29:47 IST" duration-ms="666" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[======# Browser Test End # ======]]>
@@ -315,58 +302,58 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- tearDown -->
       </class> <!-- tests.checkout_step_two_test -->
       <class name="tests.checkout_complete_test">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:18 IST" name="setup" finished-at="2021-01-04T04:17:24 IST" duration-ms="5955" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:16 IST" name="setup" finished-at="2021-01-04T04:29:24 IST" duration-ms="7844" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4b916cc2]]>
+                <![CDATA[org.testng.TestRunner@385c9627]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getResponseTime()[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:24 IST" name="getResponseTime" finished-at="2021-01-04T04:17:24 IST" duration-ms="398" status="PASS">
+        <test-method signature="getResponseTime()[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:24 IST" name="getResponseTime" finished-at="2021-01-04T04:29:25 IST" duration-ms="1444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResponseTime -->
-        <test-method signature="getStatusCode()[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:24 IST" name="getStatusCode" finished-at="2021-01-04T04:17:24 IST" duration-ms="422" status="PASS">
+        <test-method signature="getStatusCode()[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:25 IST" name="getStatusCode" finished-at="2021-01-04T04:29:26 IST" duration-ms="484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStatusCode -->
-        <test-method signature="t01_loginSucceed()[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:24 IST" name="t01_loginSucceed" finished-at="2021-01-04T04:17:27 IST" duration-ms="2633" status="PASS">
+        <test-method signature="t01_loginSucceed()[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:26 IST" name="t01_loginSucceed" finished-at="2021-01-04T04:29:36 IST" duration-ms="10361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t01_loginSucceed -->
-        <test-method signature="t02_addListItems()[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:27 IST" name="t02_addListItems" finished-at="2021-01-04T04:17:28 IST" duration-ms="477" status="PASS">
+        <test-method signature="t02_addListItems()[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:36 IST" name="t02_addListItems" finished-at="2021-01-04T04:29:37 IST" duration-ms="1033" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t02_addListItems -->
-        <test-method signature="t03_clickCheckOut()[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:28 IST" name="t03_clickCheckOut" finished-at="2021-01-04T04:17:28 IST" duration-ms="189" status="PASS">
+        <test-method signature="t03_clickCheckOut()[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:37 IST" name="t03_clickCheckOut" finished-at="2021-01-04T04:29:38 IST" duration-ms="678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t03_clickCheckOut -->
-        <test-method signature="t04_personalCorrectDetails()[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:28 IST" name="t04_personalCorrectDetails" finished-at="2021-01-04T04:17:28 IST" duration-ms="556" status="PASS">
+        <test-method signature="t04_personalCorrectDetails()[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:38 IST" name="t04_personalCorrectDetails" finished-at="2021-01-04T04:29:39 IST" duration-ms="1287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t04_personalCorrectDetails -->
-        <test-method signature="t05_finish()[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:28 IST" name="t05_finish" finished-at="2021-01-04T04:17:29 IST" duration-ms="424" status="PASS">
+        <test-method signature="t05_finish()[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:39 IST" name="t05_finish" finished-at="2021-01-04T04:29:43 IST" duration-ms="4209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t05_finish -->
-        <test-method signature="t06_printMessage()[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:29 IST" name="t06_printMessage" finished-at="2021-01-04T04:17:29 IST" duration-ms="38" status="PASS">
+        <test-method signature="t06_printMessage()[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:43 IST" name="t06_printMessage" finished-at="2021-01-04T04:29:44 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t06_printMessage -->
-        <test-method signature="t07_finishOrder()[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:29 IST" name="t07_finishOrder" finished-at="2021-01-04T04:17:29 IST" duration-ms="15" status="PASS">
+        <test-method signature="t07_finishOrder()[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:44 IST" name="t07_finishOrder" finished-at="2021-01-04T04:29:44 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t07_finishOrder -->
-        <test-method signature="t09_logOut()[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:29 IST" name="t09_logOut" finished-at="2021-01-04T04:17:29 IST" duration-ms="247" status="PASS">
+        <test-method signature="t09_logOut()[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:44 IST" name="t09_logOut" finished-at="2021-01-04T04:29:45 IST" duration-ms="1169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t09_logOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkout_complete_test@9225652]" started-at="2021-01-04T04:17:29 IST" name="tearDown" finished-at="2021-01-04T04:17:30 IST" duration-ms="645" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkout_complete_test@654f0d9c]" started-at="2021-01-04T04:29:45 IST" name="tearDown" finished-at="2021-01-04T04:29:45 IST" duration-ms="657" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[======# Browser Test End # ======]]>
@@ -375,54 +362,54 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- tearDown -->
       </class> <!-- tests.checkout_complete_test -->
       <class name="tests.inventory_test">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.inventory_test@a9cd3b1]" started-at="2021-01-04T04:16:38 IST" name="setup" finished-at="2021-01-04T04:16:44 IST" duration-ms="5995" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.inventory_test@13e39c73]" started-at="2021-01-04T04:29:16 IST" name="setup" finished-at="2021-01-04T04:29:24 IST" duration-ms="7533" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4b916cc2]]>
+                <![CDATA[org.testng.TestRunner@385c9627]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getResponseTime()[pri:0, instance:tests.inventory_test@a9cd3b1]" started-at="2021-01-04T04:16:44 IST" name="getResponseTime" finished-at="2021-01-04T04:16:45 IST" duration-ms="430" status="PASS">
+        <test-method signature="getResponseTime()[pri:0, instance:tests.inventory_test@13e39c73]" started-at="2021-01-04T04:29:24 IST" name="getResponseTime" finished-at="2021-01-04T04:29:25 IST" duration-ms="1755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResponseTime -->
-        <test-method signature="getStatusCode()[pri:0, instance:tests.inventory_test@a9cd3b1]" started-at="2021-01-04T04:16:45 IST" name="getStatusCode" finished-at="2021-01-04T04:16:45 IST" duration-ms="438" status="PASS">
+        <test-method signature="getStatusCode()[pri:0, instance:tests.inventory_test@13e39c73]" started-at="2021-01-04T04:29:25 IST" name="getStatusCode" finished-at="2021-01-04T04:29:26 IST" duration-ms="519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStatusCode -->
-        <test-method signature="t01_loginSucceed()[pri:0, instance:tests.inventory_test@a9cd3b1]" started-at="2021-01-04T04:16:45 IST" name="t01_loginSucceed" finished-at="2021-01-04T04:16:50 IST" duration-ms="4765" status="PASS">
+        <test-method signature="t01_loginSucceed()[pri:0, instance:tests.inventory_test@13e39c73]" started-at="2021-01-04T04:29:26 IST" name="t01_loginSucceed" finished-at="2021-01-04T04:29:46 IST" duration-ms="19797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t01_loginSucceed -->
-        <test-method signature="t02_addOneItemAndBack()[pri:0, instance:tests.inventory_test@a9cd3b1]" started-at="2021-01-04T04:16:50 IST" name="t02_addOneItemAndBack" finished-at="2021-01-04T04:16:50 IST" duration-ms="372" status="PASS">
+        <test-method signature="t02_addOneItemAndBack()[pri:0, instance:tests.inventory_test@13e39c73]" started-at="2021-01-04T04:29:46 IST" name="t02_addOneItemAndBack" finished-at="2021-01-04T04:29:46 IST" duration-ms="616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t02_addOneItemAndBack -->
-        <test-method signature="t03_addListItems()[pri:0, instance:tests.inventory_test@a9cd3b1]" started-at="2021-01-04T04:16:50 IST" name="t03_addListItems" finished-at="2021-01-04T04:16:51 IST" duration-ms="314" status="PASS">
+        <test-method signature="t03_addListItems()[pri:0, instance:tests.inventory_test@13e39c73]" started-at="2021-01-04T04:29:46 IST" name="t03_addListItems" finished-at="2021-01-04T04:29:47 IST" duration-ms="345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t03_addListItems -->
-        <test-method signature="t04_lowToHigh()[pri:0, instance:tests.inventory_test@a9cd3b1]" started-at="2021-01-04T04:16:51 IST" name="t04_lowToHigh" finished-at="2021-01-04T04:16:51 IST" duration-ms="281" status="PASS">
+        <test-method signature="t04_lowToHigh()[pri:0, instance:tests.inventory_test@13e39c73]" started-at="2021-01-04T04:29:47 IST" name="t04_lowToHigh" finished-at="2021-01-04T04:29:47 IST" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t04_lowToHigh -->
-        <test-method signature="t05_highToLowh()[pri:0, instance:tests.inventory_test@a9cd3b1]" started-at="2021-01-04T04:16:51 IST" name="t05_highToLowh" finished-at="2021-01-04T04:16:51 IST" duration-ms="245" status="PASS">
+        <test-method signature="t05_highToLowh()[pri:0, instance:tests.inventory_test@13e39c73]" started-at="2021-01-04T04:29:47 IST" name="t05_highToLowh" finished-at="2021-01-04T04:29:47 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t05_highToLowh -->
-        <test-method signature="t06_ZToA()[pri:0, instance:tests.inventory_test@a9cd3b1]" started-at="2021-01-04T04:16:51 IST" name="t06_ZToA" finished-at="2021-01-04T04:16:51 IST" duration-ms="69" status="PASS">
+        <test-method signature="t06_ZToA()[pri:0, instance:tests.inventory_test@13e39c73]" started-at="2021-01-04T04:29:47 IST" name="t06_ZToA" finished-at="2021-01-04T04:29:47 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t06_ZToA -->
-        <test-method signature="t07_logOut()[pri:0, instance:tests.inventory_test@a9cd3b1]" started-at="2021-01-04T04:16:51 IST" name="t07_logOut" finished-at="2021-01-04T04:16:52 IST" duration-ms="358" status="PASS">
+        <test-method signature="t07_logOut()[pri:0, instance:tests.inventory_test@13e39c73]" started-at="2021-01-04T04:29:47 IST" name="t07_logOut" finished-at="2021-01-04T04:29:48 IST" duration-ms="405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t07_logOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.inventory_test@a9cd3b1]" started-at="2021-01-04T04:16:52 IST" name="tearDown" finished-at="2021-01-04T04:16:52 IST" duration-ms="643" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.inventory_test@13e39c73]" started-at="2021-01-04T04:29:48 IST" name="tearDown" finished-at="2021-01-04T04:29:48 IST" duration-ms="639" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[======# Browser Test End # ======]]>
@@ -431,50 +418,50 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- tearDown -->
       </class> <!-- tests.inventory_test -->
       <class name="tests.cart_test">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.cart_test@67a20f67]" started-at="2021-01-04T04:16:08 IST" name="setup" finished-at="2021-01-04T04:16:15 IST" duration-ms="6704" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.cart_test@a9cd3b1]" started-at="2021-01-04T04:29:16 IST" name="setup" finished-at="2021-01-04T04:29:23 IST" duration-ms="7232" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4b916cc2]]>
+                <![CDATA[org.testng.TestRunner@385c9627]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getResponseTime()[pri:0, instance:tests.cart_test@67a20f67]" started-at="2021-01-04T04:16:15 IST" name="getResponseTime" finished-at="2021-01-04T04:16:16 IST" duration-ms="1406" status="PASS">
+        <test-method signature="getResponseTime()[pri:0, instance:tests.cart_test@a9cd3b1]" started-at="2021-01-04T04:29:23 IST" name="getResponseTime" finished-at="2021-01-04T04:29:25 IST" duration-ms="2044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResponseTime -->
-        <test-method signature="getStatusCode()[pri:0, instance:tests.cart_test@67a20f67]" started-at="2021-01-04T04:16:16 IST" name="getStatusCode" finished-at="2021-01-04T04:16:17 IST" duration-ms="415" status="PASS">
+        <test-method signature="getStatusCode()[pri:0, instance:tests.cart_test@a9cd3b1]" started-at="2021-01-04T04:29:25 IST" name="getStatusCode" finished-at="2021-01-04T04:29:26 IST" duration-ms="484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStatusCode -->
-        <test-method signature="t01_loginSucceed()[pri:0, instance:tests.cart_test@67a20f67]" started-at="2021-01-04T04:16:17 IST" name="t01_loginSucceed" finished-at="2021-01-04T04:16:21 IST" duration-ms="3751" status="PASS">
+        <test-method signature="t01_loginSucceed()[pri:0, instance:tests.cart_test@a9cd3b1]" started-at="2021-01-04T04:29:26 IST" name="t01_loginSucceed" finished-at="2021-01-04T04:29:44 IST" duration-ms="18553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t01_loginSucceed -->
-        <test-method signature="t02_addListItems()[pri:0, instance:tests.cart_test@67a20f67]" started-at="2021-01-04T04:16:21 IST" name="t02_addListItems" finished-at="2021-01-04T04:16:21 IST" duration-ms="585" status="PASS">
+        <test-method signature="t02_addListItems()[pri:0, instance:tests.cart_test@a9cd3b1]" started-at="2021-01-04T04:29:44 IST" name="t02_addListItems" finished-at="2021-01-04T04:29:45 IST" duration-ms="755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t02_addListItems -->
-        <test-method signature="t03_remvoeItem()[pri:0, instance:tests.cart_test@67a20f67]" started-at="2021-01-04T04:16:21 IST" name="t03_remvoeItem" finished-at="2021-01-04T04:16:21 IST" duration-ms="63" status="PASS">
+        <test-method signature="t03_remvoeItem()[pri:0, instance:tests.cart_test@a9cd3b1]" started-at="2021-01-04T04:29:45 IST" name="t03_remvoeItem" finished-at="2021-01-04T04:29:45 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t03_remvoeItem -->
-        <test-method signature="t04_continueShopping()[pri:0, instance:tests.cart_test@67a20f67]" started-at="2021-01-04T04:16:21 IST" name="t04_continueShopping" finished-at="2021-01-04T04:16:21 IST" duration-ms="177" status="PASS">
+        <test-method signature="t04_continueShopping()[pri:0, instance:tests.cart_test@a9cd3b1]" started-at="2021-01-04T04:29:45 IST" name="t04_continueShopping" finished-at="2021-01-04T04:29:45 IST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t04_continueShopping -->
-        <test-method signature="t05_numOfItems()[pri:0, instance:tests.cart_test@67a20f67]" started-at="2021-01-04T04:16:21 IST" name="t05_numOfItems" finished-at="2021-01-04T04:16:22 IST" duration-ms="1038" status="PASS">
+        <test-method signature="t05_numOfItems()[pri:0, instance:tests.cart_test@a9cd3b1]" started-at="2021-01-04T04:29:45 IST" name="t05_numOfItems" finished-at="2021-01-04T04:29:46 IST" duration-ms="1032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t05_numOfItems -->
-        <test-method signature="t06_clickCheckOut()[pri:0, instance:tests.cart_test@67a20f67]" started-at="2021-01-04T04:16:22 IST" name="t06_clickCheckOut" finished-at="2021-01-04T04:16:23 IST" duration-ms="268" status="PASS">
+        <test-method signature="t06_clickCheckOut()[pri:0, instance:tests.cart_test@a9cd3b1]" started-at="2021-01-04T04:29:46 IST" name="t06_clickCheckOut" finished-at="2021-01-04T04:29:47 IST" duration-ms="404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t06_clickCheckOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cart_test@67a20f67]" started-at="2021-01-04T04:16:23 IST" name="tearDown" finished-at="2021-01-04T04:16:23 IST" duration-ms="636" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cart_test@a9cd3b1]" started-at="2021-01-04T04:29:47 IST" name="tearDown" finished-at="2021-01-04T04:29:48 IST" duration-ms="631" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[======# Browser Test End # ======]]>
