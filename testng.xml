@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="7" name="Test" parallel="classes">
     <classes>
+	  <class name="tests.base_test"/>
+ 	  <class name="tests.login_test"/>
       <class name="tests.cart_test"/>
-      <class name="tests.checkout_step_one_test"/>
       <class name="tests.inventory_test"/>
-      <class name="tests.login_test"/>
-      <class name="tests.base_test"/>
-      <class name="tests.checkout_complete_test"/>
+      <class name="tests.checkout_step_one_test"/>
       <class name="tests.checkout_step_two_test"/>
+      <class name="tests.checkout_complete_test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
