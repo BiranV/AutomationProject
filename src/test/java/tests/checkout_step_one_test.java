@@ -1,6 +1,6 @@
 package tests;
 
-import org.testng.Assert;
+import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
 import pageobjects.inventory;
 import pageobjects.login;
@@ -16,7 +16,7 @@ public class checkout_step_one_test extends base_test {
 		lp.login("standard_user", "secret_sauce");
 		inventory in = new inventory(driver);
 		String actualMsg = in.loginSuccess();
-		Assert.assertEquals(actualMsg, "Products");
+		assertEquals(actualMsg, "Products");
 	}
  
 	@Test
@@ -29,7 +29,7 @@ public class checkout_step_one_test extends base_test {
 		item.openCart();
 		cart ca = new cart(driver);
 		String actualMsg = ca.valueOfItems();
-		Assert.assertEquals(actualMsg, "4", "exepted for 4 items");
+		assertEquals(actualMsg, "4", "exepted for 4 items");
 	}
 
 	@Test
@@ -38,7 +38,7 @@ public class checkout_step_one_test extends base_test {
 		ca.checkout();
 		checkout_step_one co = new checkout_step_one(driver);
 		String actualMsg = co.titleCheckout();
-		Assert.assertEquals(actualMsg, "Checkout: Your Information");
+		assertEquals(actualMsg, "Checkout: Your Information");
 	}
 
 	@Test
@@ -47,7 +47,7 @@ public class checkout_step_one_test extends base_test {
 		co.fillDetails("", "Varon", "7530249");
 		String expected = "Error: First Name is required";
 		String actual = co.errorMsg();
-		Assert.assertEquals(actual, expected);
+		assertEquals(actual, expected);
 		Thread.sleep(2000);
 	}
 
@@ -57,6 +57,6 @@ public class checkout_step_one_test extends base_test {
 		co.fillDetails("Biran", "Varon", "7530249");
 		checkout_step_two ov = new checkout_step_two(driver);
 		String actualMsg = ov.titleOverview();
-		Assert.assertEquals(actualMsg, "Checkout: Overview");
+		assertEquals(actualMsg, "Checkout: Overview");
 	}
 }

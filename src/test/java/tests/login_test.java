@@ -1,6 +1,6 @@
 package tests;
 
-import org.testng.Assert;
+import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
 import pageobjects.login;
 import pageobjects.inventory;
@@ -13,7 +13,7 @@ public class login_test extends base_test {
 		login lp = new login(driver);
 		lp.login(user, password);
 		String actualMsg = lp.errorMsg();
-		Assert.assertEquals(actualMsg, "Epic sadface: Username and password do not match any user in this service");
+		assertEquals(actualMsg, "Epic sadface: Username and password do not match any user in this service");
 	}
 
 	@Test(description = "Login with wrong password and match assert")
@@ -21,7 +21,7 @@ public class login_test extends base_test {
 		login lp = new login(driver);
 		lp.login("standard_user", "secretsauce"); // wrong password
 		String actualMsg = lp.errorMsg();
-		Assert.assertEquals(actualMsg, "Epic sadface: Username and password do not match any user in this service"); // match
+		assertEquals(actualMsg, "Epic sadface: Username and password do not match any user in this service"); // match
 	}
 
 	@Test(description = "Login with wrong password with unmatch assert")
@@ -30,7 +30,7 @@ public class login_test extends base_test {
 		lp.login("standard_user", "secretsauce"); // wrong password
 		String expected = "Sorry! Epic sadface: Username and password do not match any user in this service";
 		String actualMsg = lp.errorMsg();
-		Assert.assertEquals(actualMsg, expected); // no match
+		assertEquals(actualMsg, expected); // no match
 	}
 
 	@Test(description = "Login with right username and password")
@@ -39,7 +39,7 @@ public class login_test extends base_test {
 		lp.login("standard_user", "secret_sauce");
 		inventory in = new inventory(driver);
 		String actualMsg = in.loginSuccess();
-		Assert.assertEquals(actualMsg, "Products");
+		assertEquals(actualMsg, "Products");
 	}
 	
 }

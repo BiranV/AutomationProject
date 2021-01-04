@@ -1,6 +1,6 @@
 package tests;
 
-import org.testng.Assert;
+import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
 import pageobjects.inventory;
 import pageobjects.login;
@@ -17,7 +17,7 @@ public class checkout_step_two_test extends base_test {
 		lp.login("standard_user", "secret_sauce");
 		inventory in = new inventory(driver);
 		String actualMsg = in.loginSuccess();
-		Assert.assertEquals(actualMsg, "Products");
+		assertEquals(actualMsg, "Products");
 	}
 
 	@Test
@@ -30,7 +30,7 @@ public class checkout_step_two_test extends base_test {
 		item.openCart();
 		cart ca = new cart(driver);
 		String actualMsg = ca.valueOfItems();
-		Assert.assertEquals(actualMsg, "4");
+		assertEquals(actualMsg, "4");
 	}
 
 	@Test
@@ -39,7 +39,7 @@ public class checkout_step_two_test extends base_test {
 		ca.checkout();
 		checkout_step_one co = new checkout_step_one(driver);
 		String actualMsg = co.titleCheckout();
-		Assert.assertEquals(actualMsg, "Checkout: Your Information");
+		assertEquals(actualMsg, "Checkout: Your Information");
 	}
 
 	@Test
@@ -48,7 +48,7 @@ public class checkout_step_two_test extends base_test {
 		co.fillDetails("Biran", "Varon", "7530249");
 		checkout_step_two ov = new checkout_step_two(driver);
 		String actualMsg = ov.titleOverview();
-		Assert.assertEquals(actualMsg, "Checkout: Overview");
+		assertEquals(actualMsg, "Checkout: Overview");
 	}
 
 	@Test
@@ -56,7 +56,7 @@ public class checkout_step_two_test extends base_test {
 		checkout_step_two ov = new checkout_step_two(driver);
 		ov.numSaurceCard();
 		String val = ov.valSaurceCard();
-		Assert.assertEquals(val, "SauceCard #31337");
+		assertEquals(val, "SauceCard #31337");
 	}
 
 	@Test
@@ -64,7 +64,7 @@ public class checkout_step_two_test extends base_test {
 		checkout_step_two ov = new checkout_step_two(driver);
 		ov.itemTotal();
 		String val = ov.valItemTotal();
-		Assert.assertEquals(val, "Item total: $105.96000000000001");
+		assertEquals(val, "Item total: $105.96000000000001");
 	}
 
 	@Test
@@ -72,7 +72,7 @@ public class checkout_step_two_test extends base_test {
 		checkout_step_two ov = new checkout_step_two(driver);
 		ov.tax();
 		String val = ov.valTax();
-		Assert.assertEquals(val, "Tax: $8.48");
+		assertEquals(val, "Tax: $8.48");
 	}
 
 	@Test
@@ -80,7 +80,7 @@ public class checkout_step_two_test extends base_test {
 		checkout_step_two ov = new checkout_step_two(driver);
 		ov.total();
 		String val = ov.valTotal();
-		Assert.assertEquals(val, "Total: $114.44");
+		assertEquals(val, "Total: $114.44");
 	}
 
 	@Test
@@ -89,6 +89,6 @@ public class checkout_step_two_test extends base_test {
 		ov.finish();
 		checkout_complete fs = new checkout_complete(driver);
 		String val = fs.titleFinish();
-		Assert.assertEquals(val, "Finish");
+		assertEquals(val, "Finish");
 	}
 }

@@ -1,6 +1,6 @@
 package tests;
 
-import org.testng.Assert;
+import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
 import pageobjects.inventory;
 import pageobjects.login;
@@ -14,7 +14,7 @@ public class inventory_test extends base_test {
 		lp.login("standard_user", "secret_sauce");
 		inventory in = new inventory(driver);
 		String actualMsg = in.loginSuccess();
-		Assert.assertEquals(actualMsg, "Products");
+		assertEquals(actualMsg, "Products");
 		Thread.sleep(1000);
 	}
 
@@ -26,7 +26,7 @@ public class inventory_test extends base_test {
 		item.back();
 		inventory in = new inventory(driver);
 		String actualMsg = in.loginSuccess();
-		Assert.assertEquals(actualMsg, "Products");
+		assertEquals(actualMsg, "Products");
 	}
 
 	@Test
@@ -38,21 +38,21 @@ public class inventory_test extends base_test {
 		item.chooseToItemsList("Sauce Labs Onesie");
 		cart ca = new cart(driver);
 		String actualMsg = ca.valueOfItems();
-		Assert.assertEquals(actualMsg, "5");
+		assertEquals(actualMsg, "5");
 	}
 
 	@Test
 	public void t04_lowToHigh() {
 		inventory item1 = new inventory(driver);
 		String actualMsg = item1.sortLowToHigh();
-		Assert.assertEquals(actualMsg, "fine");
+		assertEquals(actualMsg, "fine");
 	}
 
 	@Test
 	public void t05_highToLowh() {
 		inventory item1 = new inventory(driver);
 		String actualMsg = item1.sortHighToLow();
-		Assert.assertEquals(actualMsg, "fine");
+		assertEquals(actualMsg, "fine");
 	}
 
 	@Test
@@ -67,7 +67,7 @@ public class inventory_test extends base_test {
 		item1.logOut(); 
 		login lg = new login(driver); 
 		String actualMsg = lg.loginAfterLogout(); 
-		Assert.assertEquals(actualMsg, "Accepted usernames are:"); 
+		assertEquals(actualMsg, "Accepted usernames are:"); 
 	}
 
 }

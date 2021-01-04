@@ -1,6 +1,6 @@
 package tests;
 
-import org.testng.Assert;
+import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
 import pageobjects.inventory;
 import pageobjects.login;
@@ -15,7 +15,7 @@ public class cart_test extends base_test{
 		lp.login("standard_user", "secret_sauce");
 		inventory in = new inventory(driver);
 		String actualMsg = in.loginSuccess();
-		Assert.assertEquals(actualMsg, "Products");
+		assertEquals(actualMsg, "Products");
 	}
 
 	@Test
@@ -28,7 +28,7 @@ public class cart_test extends base_test{
 		item.openCart();
 		cart ca = new cart(driver);
 		String actualMsg = ca.valueOfItems();
-		Assert.assertEquals(actualMsg, "4");
+		assertEquals(actualMsg, "4");
 	}
 
 	@Test
@@ -37,7 +37,7 @@ public class cart_test extends base_test{
 		ca.removeItem();
 		cart ca_two = new cart(driver);
 		String actualMsg = ca_two.valueOfItems();
-		Assert.assertEquals(actualMsg, "3");
+		assertEquals(actualMsg, "3");
 	} 
 
 	@Test
@@ -48,7 +48,7 @@ public class cart_test extends base_test{
 		item.openCart(); // open cart again for the next test
 		cart ca_two = new cart(driver);
 		String actualMsg = ca_two.backToCart();
-		Assert.assertEquals(actualMsg, "DESCRIPTION");
+		assertEquals(actualMsg, "DESCRIPTION");
 	}
 
 	@Test
@@ -57,7 +57,7 @@ public class cart_test extends base_test{
 		ca.numOfItems();
 		cart ca_two = new cart(driver);
 		String actualMsg = ca_two.valueOfItems();
-		Assert.assertEquals(actualMsg, "3");
+		assertEquals(actualMsg, "3");
 	}
 
 	@Test
@@ -66,7 +66,7 @@ public class cart_test extends base_test{
 		ca.checkout();
 		checkout_step_one co = new checkout_step_one(driver);
 		String actualMsg = co.titleCheckout();
-		Assert.assertEquals(actualMsg, "Checkout: Your Information");
+		assertEquals(actualMsg, "Checkout: Your Information");
 	}
 	
 }
