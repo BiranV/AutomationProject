@@ -43,7 +43,7 @@ public class base_test {
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
-		Reporter.log("======# Browser Test End # ======", true);
+		Reporter.log("=======# Browser Test End # =======", true);
 	}
 	
 }
