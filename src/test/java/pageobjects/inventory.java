@@ -63,7 +63,7 @@ public class inventory extends base_page {
 		s.selectByValue("lohi");
 		String res = null;
 
-		//validation
+		// validation
 		for (int i=1 ; i < listPrice.size() ; i++) {
 			if (Double.valueOf(listPrice.get(i-1).getText().substring(1)) > Double.valueOf(listPrice.get(i).getText().substring(1))) {
 				res = "error";
